@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+  }
+  section {
+    display: grid;
+    justify-content: center;
+    background-image: url(2825704.gif);
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    
+  }
+
+  .fondoPaisaje {
+    width: 300px;
+    height: 100px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  .card {
+    margin: 50px;
+    display: grid;
+    height: 500px;
+    width: 400px;
+    background-color: #2b2d42;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 20px;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .fondoMorado {
+    width: 500px;
+    height: 100px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  .containerFotos {
+    position: relative;
+    height: 90px;
+    margin: 20px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  .card .imagenPerfil {
+    top: 35px;
+    left: -10px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    align-items: flex-start;
+  }
+
+  .card .imagenComputadora {
+    top: 35px;
+    left: 70px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    align-items: flex-end;
+  }
+  .nombre {
+    color: #edf6f9;
+    font-family: "Dank Mono", ui-monospace, monospace;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 20px;
+  }
+  .cargo {
+    color: #edf6f9;
+    font-family: "Dank Mono", ui-monospace, monospace;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-size: 16px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .descripcion {
+    font-family: "Dank Mono", ui-monospace, monospace;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin-top: 1ch;
+    line-height: 1.35;
+    max-inline-size: 40ch;
+    margin: auto;
+    text-align: center;
+    background: radial-gradient(hsl(100 100% 60%), hsl(200 100% 60%)) fixed;
+    background: conic-gradient(
+        hsl(100 100% 60%),
+        hsl(200 100% 60%),
+        hsl(100 100% 60%)
+      )
+      fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .containerRedes {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin: 20px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+
+  .github{
+    margin: 15px;
+    width: 25px;
+    height: 25px;
+  }
+  .instagram{
+    margin: 15px;
+    width: 25px;
+    height: 25px;
+  }
